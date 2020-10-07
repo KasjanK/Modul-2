@@ -1,0 +1,43 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+h1 {
+  margin: 0 0 30px 0;
+  height: 80px;
+  line-height: 80px;
+  background-color: antiquewhite;
+  width: 100%;
+  text-align: center;
+}
+
+#addTodoForm {
+  margin-bottom: 20px;
+}
+
+ul {
+  margin: 0;
+  width: 500px;
+  list-style: none;
+  border: 1px solid #eee;
+  padding: 20px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+li:nth-child(2n + 1) {
+  background-color: #eee;
+}
+
+li:hover {
+  background-color: antiquewhite;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TodoList</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>TodoList</h1>
+    <form id="addTodoForm">
+      <input id="addTodoInputField" type="text" autocomplete="off" />
+      <button>Add todo item</button>
+    </form>
+
+    <ul id="todoList">
+      <li>Shop <button onclick="deleteTodo(this)">Delete</button></li>
+      <li>Cook <button onclick="deleteTodo(this)">Delete</button></li>
+      <li>Clean <button onclick="deleteTodo(this)">Delete</button></li>
+      <li>Sleep <button onclick="deleteTodo(this)">Delete</button></li>
+    </ul>
+    <script src="./app.js"></script>
+  </body>
+</html>
